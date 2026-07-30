@@ -2,7 +2,7 @@
 // LAUNDRY WALLAH - API INTEGRATION VERSION
 // ==========================================
 
-const API_BASE_URL = 'http://localhost:3000'; // Your backend URL
+const API_BASE_URL = "https://laundry-wallah-il2t.onrender.com"; // Your backend URL
 
 // --- Mobile Menu Logic ---
 const hamburger = document.getElementById('hamburger');
