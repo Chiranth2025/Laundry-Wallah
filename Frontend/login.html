@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Laundry Wallah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+    <a href="index.html">
+        <img src="logo.jpg" alt="Laundry Wallah Logo" class="logo-img">
+
+    </a>
+</div>
+        <div class="hamburger" id="hamburger">☰</div>
+        <nav id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">My Orders</a>
+            <a href="login.html" class="nav-btn" style="background-color: #3498db; color: white; padding: 8px 15px; border-radius: 5px;">Login</a>
+        </nav>
+    </header>
+
+    <main class="login-section">
+        <div class="login-container">
+            <h2>Welcome Back</h2>
+            <p>Please log in to your account.</p>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;">Log In</button>
+                
+                <div class="signup-link">
+                    <p>Don't have an account? <a href="register.html">Sign up here</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <!-- Brand Logo -->
+            <div class="footer-logo">
+                <h2>Laundry Wallah</h2>
+            </div>
+
+            <!-- Links Grid -->
+            <div class="footer-grid">
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>For Partners</h4>
+                    <ul>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Laundromat Owners</a></li>
+                        <li><a href="#">Fleet Partners</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Learn More</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Report an Issue</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col social-col">
+                    <h4>Social Links</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn">in</a>
+                        <a href="#" class="social-btn">ig</a>
+                        <a href="#" class="social-btn">yt</a>
+                        <a href="#" class="social-btn">fb</a>
+                        <a href="#" class="social-btn">𝕏</a>
+                    </div>
+                    <div class="app-badges">
+                        <a href="#" class="app-btn">
+                            <small>Download on the</small>
+                            <strong>App Store</strong>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <small>GET IT ON</small>
+                            <strong>Google Play</strong>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Bottom Legal Section -->
+            <div class="footer-bottom">
+                <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy, and Content Policies. All trademarks are properties of their respective owners.</p>
+                <p class="copyright">© 2026 Laundry Wallah™ Ltd. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
